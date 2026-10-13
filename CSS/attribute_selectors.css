@@ -1,0 +1,13 @@
+input[type="number"] {
+background-color: yellow;
+color: red;
+border-radius: 10px;
+padding-left: 20px;
+}
+input[checked] {
+outline: 2px solid red;
+}
+input[disabled] {
+background-color: green;
+border-radius: 5px;
+}

@@ -1,0 +1,32 @@
+/*
+a:hover{
+    color: red;
+    text-transform: uppercase;
+}
+input:focus{
+    background-color: black;
+}
+li:first-child{
+    color: orange;
+    text-decoration: underline;
+}
+li:last-child{
+    color: green;
+}*/
+p::before{
+content: "!!!";
+color: red;
+}
+p::after{
+    content: "!!!";
+    color: green;
+}
+input::placeholder{
+    color: green;
+    font-style: italic;
+    
+}
+input{
+    color: brown;
+    border-radius: 10px;
+}

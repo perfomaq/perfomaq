@@ -1,0 +1,29 @@
+ul > li {
+  color: blue;
+}
+li + li {
+  border-top: 1px solid black;
+}
+.note ~ p {
+  color: red;
+}
+/*
+> - direct child
++ - только следующий элемент получит стили
+~ - все следующие элементы получат стили (кроме первого)
+*/
+.highlight.second{
+    color: red;
+}
+div.secure{
+    background-color: blue;
+    color: green;
+}
+span.secure{
+    background-color: green;
+    color: blue;
+}
+.first .inner{
+    background-color: yellow;
+    color: black;
+}
